@@ -1,0 +1,241 @@
+// general
+html{
+  background: #e7010e;
+}
+
+body{
+  max-width: 768px;
+  width: 100vw;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  padding-top: 8vw;
+  background: url(../images/v4/bg-top.jpg) no-repeat top center/100% auto,url(../images/v4/bg-bottom.jpg) no-repeat bottom center/100% auto ;
+}
+.p-home{
+  main{
+    background: url(../images/v4/bg-home.jpg) no-repeat top center/100% auto,url(../images/v4/bg-bottom.jpg) no-repeat bottom center/100% auto ;
+  }
+}
+
+header{
+  display:flex;
+  width: 100%;
+  padding: 0 16px;
+  justify-content: space-between;
+  img:only-child{
+    margin: 0 auto;
+  }
+  img{
+    max-height: 40px;
+  }
+}
+.campaign{
+  margin-top: 40vw;
+  max-width: 92vw;
+}
+.heading{
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(46, 49, 128, 0.25);
+  font-size: 0.22rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-top: 20px;
+  @include PC{
+    font-size: 22px;
+    margin-top: 40px;
+  }
+}
+.heading-italic{
+  font-style: italic;
+}
+.heading-yellow{
+  color: #F1E281;
+}
+.heading-2{
+  color: #FBF480;
+  text-align: center;
+  font-size: 0.16rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  @include PC{
+    font-size: 16px;
+  }
+}
+.heading-large{
+  color: $main-color;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(46, 49, 128, 0.25);
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 1.3;
+  text-stroke: 1px #F1E281;
+  -webkit-text-stroke: 1px #F1E281;
+  @include PC{
+    font-size: 30px;
+  }
+}
+.heading-small{
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(46, 49, 128, 0.25);
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  @include PC{
+    font-size: 18px;
+  }
+}
+
+.form-check{
+  margin: 10px 16px;
+  align-self: start;
+
+  input[type='checkbox']{display: none;}
+  input[type='checkbox'] ~ label{
+    font-size: 0.13rem;
+    position: relative;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+
+    @include PC{
+      font-size: 14px;
+    }
+    &:before{
+      content:'';
+      width: 20px;
+      height: 20px;
+      aspect-ratio: 1;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 8px;
+      border-radius: 4px;
+      border: 1px solid #FFF;
+      background: #FFF;
+      transform: translateY(-4px);
+    }
+    &:after{
+      content:'';
+      width: 6px;
+      height: 20px;
+      background: transparent;
+      border-right: 2px solid $main-color;
+      border-bottom: 2px solid $main-color;
+      position: absolute;
+      top: -10px;
+      left: 10px;
+      transform: rotate(45deg);
+      z-index: 1;
+      opacity: 0;
+    }
+  }
+  input[type='checkbox']:checked ~ label:after{
+    opacity: 1;
+  } 
+}
+.form-check + .form-check{
+  margin-top: 0;
+}
+.form-group.check{
+  display: flex;
+  label{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  }
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  padding: 0 0.1rem .2rem;
+  gap: 0.1rem;
+  @include PC{
+    gap: 10px;
+    padding: 0 20px 20px;
+  }
+  &-space{
+    justify-content: space-between;
+  }
+  &-vertical{
+    flex-direction: column;
+  }
+}
+
+.button{
+  border: none;
+  border-radius: 100px;
+  background: $main-color;
+  color: #FFF;
+  font-size: 0.12rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.1rem 0.2rem;
+  @include PC{
+    font-size: 20px;
+    padding: 12px 24px;
+  }
+  &-round{
+    padding: 0.08rem;
+    @include PC{
+      padding: 12px;
+    }
+  }
+  &-shadow{
+    box-shadow: 0px 4px 4px 0px rgba(46, 49, 128, 0.50);
+  }
+  &-fit{
+    padding: 0.1rem;
+  }
+}
+
+.button-animate{
+  &:active{
+    animation: press 0.2s 1 linear;
+  }
+}
+@keyframes press {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.92);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.supermarket{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 .1rem;
+  margin-top: .15rem;
+  li{
+    height: 15vw;
+    flex: 1;
+    img{
+      object-fit: contain;
+      object-position: center;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

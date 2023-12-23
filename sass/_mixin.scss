@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+$tablet :767px;
+$mobile :640px;
+
+/* MEDIA QUERIES
+ * -----------------------------------------------*/
+@mixin PC {
+  @media print, (min-width: $tablet + 1) {
+    @content;
+  }
+}
+
+@mixin Tablet {
+  @media only screen and (max-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin SP {
+  @media only screen and (max-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin landscape {
+  @media (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin portrait {
+  @media (orientation: portrait) {
+    @content;
+  }
+}
+
+@mixin tablet-portrait {
+  @media (min-width: $mobile + 1) and (max-width: $tablet) and (orientation: portrait) {
+    @content;
+  }
+}
