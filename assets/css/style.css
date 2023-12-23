@@ -750,6 +750,9 @@ header img {
 .p-game-step2 .game-result .prize.active, .p-game-step2 .game-result .heading.active {
   display: block;
 }
+.p-game-step2 .game-result .button {
+  box-shadow: 0px 4px 4px 0px rgba(241, 226, 129, 0.25);
+}
 
 .p-game-step3 .heading-small {
   margin-top: 50vw;
