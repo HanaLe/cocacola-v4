@@ -10,13 +10,15 @@
   startButton.addEventListener("click", function (e) {
     gameIntro.style.display = "none";
     gameAnimation.classList.add("open");
+    
+    // shake tree
+
+    // show result
+    setTimeout(() => {
+      gameAnimation.style.display = "none";
+      gameResult.style.display = "flex";
+    }, 3000);
+    clearTimeout();
   });
 
-  // shake tree
-
-  // show result
-  setTimeout(() => {
-    gameAnimation.style.display = "none";
-    gameResult.style.display = "flex";
-  }, 3000);
 })();

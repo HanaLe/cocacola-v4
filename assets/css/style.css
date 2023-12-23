@@ -225,11 +225,16 @@ main {
   flex-wrap: wrap;
   min-height: 100vh;
   padding-top: 8vw;
-  background: url(../images/v4/bg-top.jpg) no-repeat top center/100% auto, url(../images/v4/bg-bottom.jpg) no-repeat bottom center/100% auto;
+  background: url(../images/v4/bg-bottom.png) no-repeat bottom center/100% auto, url(../images/v4/bg-top.jpg) no-repeat top center/100% auto;
+}
+@media print, (min-width: 768px) {
+  main {
+    padding-top: 40px;
+  }
 }
 
 .p-home main {
-  background: url(../images/v4/bg-home.jpg) no-repeat top center/100% auto, url(../images/v4/bg-bottom.jpg) no-repeat bottom center/100% auto;
+  background: url(../images/v4/bg-bottom.png) no-repeat bottom center/100% auto, url(../images/v4/bg-home.jpg) no-repeat top center/100% auto;
 }
 
 header {
@@ -243,6 +248,12 @@ header img:only-child {
 }
 header img {
   max-height: 40px;
+}
+@media print, (min-width: 768px) {
+  header img {
+    max-height: none;
+    height: 60px;
+  }
 }
 
 .campaign {
@@ -426,13 +437,20 @@ header img {
 @media print, (min-width: 768px) {
   .button-round {
     padding: 12px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 .button-shadow {
   box-shadow: 0px 4px 4px 0px rgba(46, 49, 128, 0.5);
 }
-.button-fit {
-  padding: 0.1rem;
+@media only screen and (max-width: 767px) {
+  .button-fit {
+    padding: 0.1rem;
+  }
 }
 
 .button-animate:active {
@@ -460,6 +478,11 @@ header img {
 .supermarket li {
   height: 15vw;
   flex: 1;
+}
+@media print, (min-width: 768px) {
+  .supermarket li {
+    max-height: 50px;
+  }
 }
 .supermarket li img {
   object-fit: contain;
@@ -532,6 +555,11 @@ header img {
 .p-winner .heading-small {
   margin-top: 81vw;
 }
+@media print, (min-width: 768px) {
+  .p-winner .heading-small {
+    margin-top: 750px;
+  }
+}
 .p-winner-content {
   font-size: 12px;
   width: 100%;
@@ -572,6 +600,11 @@ header img {
   border-top: none;
   border-radius: 0 0 8px;
   height: 26vh;
+}
+@media print, (min-width: 768px) {
+  .tab-content {
+    height: 300px;
+  }
 }
 .tab-content.active {
   display: block;
@@ -684,15 +717,30 @@ header img {
 .p-game-step2 .game-intro .heading-small {
   margin-top: 45vw;
 }
+@media print, (min-width: 768px) {
+  .p-game-step2 .game-intro .heading-small {
+    margin-top: 350px;
+  }
+}
 .p-game-step2 .game-intro-content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  width: 90vw;
-  margin-top: 20vw;
+  justify-content: space-around;
+  width: 90%;
+  margin: 20vw auto;
+}
+@media print, (min-width: 768px) {
+  .p-game-step2 .game-intro-content {
+    margin-top: 200px;
+  }
 }
 .p-game-step2 .game-intro-content .img-prize-special {
   margin-top: -28vw;
+}
+@media print, (min-width: 768px) {
+  .p-game-step2 .game-intro-content .img-prize-special {
+    margin-top: -100px;
+  }
 }
 .p-game-step2 .game-animation {
   display: none;
@@ -756,6 +804,11 @@ header img {
 
 .p-game-step3 .heading-small {
   margin-top: 50vw;
+}
+@media print, (min-width: 768px) {
+  .p-game-step3 .heading-small {
+    margin-top: 630px;
+  }
 }
 
 .modal {

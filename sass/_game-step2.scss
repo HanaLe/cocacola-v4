@@ -2,15 +2,24 @@
   .game-intro{
     .heading-small{
       margin-top: 45vw;
+      @include PC{
+        margin-top: 350px;
+      }
     }
     &-content{
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-between;
-      width: 90vw;
-      margin-top: 20vw;
+      justify-content: space-around;
+      width: 90%;
+      margin: 20vw auto;
+      @include PC{
+        margin-top: 200px;
+      }
       .img-prize-special{
         margin-top: -28vw;
+        @include PC{
+          margin-top: -100px;
+        }
       }
     }
   }
