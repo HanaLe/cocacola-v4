@@ -66,16 +66,18 @@
       font-style: italic;
       font-weight: 800;
       line-height: 1.4;
+      max-width: 95%;
+      margin: 10px auto 0;
       @include PC{
         font-size: 20px;
       }
     }
+    .heading-large{
+      max-width: 80%;
+      margin: 0 auto;
+    }
     .prize,.heading{
-      display: none;
       text-align: center;
-      &.active{
-        display: block;
-      }
     }
     .button{
       box-shadow: 0px 4px 4px 0px rgba(241, 226, 129, 0.25);

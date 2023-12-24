@@ -1,0 +1,265 @@
+{
+  "data": [
+    {
+      "supermarket":"central-retail",
+      "prize":[
+        {
+          "type":"special",
+          "img":"/assets/images/v4/qua/xe-vision.png",
+          "title":"Xe Honda Vision",
+          "text":"Chúc mừng bạn đã giành giải đăc biệt, vui lòng nhập thông tin nhận quà bên dưới để BTC chuyển quà cho bạn nha."
+        },
+        {
+          "type":"first",
+          "img":"/assets/images/v4/qua/noi-lau-dien.png",
+          "title":"Nồi lẩu điện hàn quốc Hawonkoo 2.5L",
+          "text":"Chúc mừng bạn đã giành giải nhất, vui lòng nhập thông tin nhận quà bên dưới để BTC chuyển quà cho bạn nha."
+        },
+        {
+          "type":"third",
+          "img":"/assets/images/v4/qua/the-cao.png",
+          "title":"Thẻ cào điện thoại 10.000 VNĐ",
+          "text":"Hãy chia sẻ và tham gia chương trình nhiều hơn nhé!"
+        },
+        {
+          "type":"unlucky",
+          "img":"",
+          "title":"Chúc bạn may mắn lần sau",
+          "text":"Hãy chia sẻ và tham gia chương trình nhiều hơn nhé!"
+        }
+      ]
+    },
+    {
+      "supermarket":"coop",
+      "prize":[
+        {
+          "type":"special",
+          "img":"/assets/images/v4/qua/xe-yanus.png",
+          "title":"Xe Yamaha Janus 2023",
+          "text":"Chúc mừng bạn đã giành giải đăc biệt, vui lòng nhập thông tin nhận quà bên dưới để BTC chuyển quà cho bạn nha."
+        },
+        {
+          "type":"first",
+          "img":"/assets/images/v4/qua/tu-lanh-toshiba.png",
+          "title":"Tủ lạnh Toshiba Inverter 180L",
+          "text":"Chúc mừng bạn đã giành giải nhất, vui lòng nhập thông tin nhận quà bên dưới để BTC chuyển quà cho bạn nha."
+        },
+        {
+          "type":"third",
+          "img":"/assets/images/v4/qua/the-cao.png",
+          "title":"Thẻ cào điện thoại 10.000 VNĐ",
+          "text":"Hãy chia sẻ và tham gia chương trình nhiều hơn nhé!"
+        },
+        {
+          "type":"unlucky",
+          "img":"",
+          "title":"Chúc bạn may mắn lần sau",
+          "text":"Hãy chia sẻ và tham gia chương trình nhiều hơn nhé!"
+        }
+      ]
+    },
+    {
+      "supermarket":"win-commerce",
+      "prize":[
+        {
+          "type":"special",
+          "img":"/assets/images/v4/qua/xe-airblade.png",
+          "title":"Xe Honda Air Blade",
+          "text":"Chúc mừng bạn đã giành giải đăc biệt, vui lòng nhập thông tin nhận quà bên dưới để BTC chuyển quà cho bạn nha."
+        },
+        {
+          "type":"first",
+          "img":"/assets/images/v4/qua/am-dun-nuoc.png",
+          "title":"Ấm siêu tốc Hàn Quốc Hawonkoo",
+          "text":"Chúc mừng bạn đã giành giải nhất, vui lòng nhập thông tin nhận quà bên dưới để BTC chuyển quà cho bạn nha."
+        },
+        {
+          "type":"third",
+          "img":"/assets/images/v4/qua/the-cao.png",
+          "title":"Thẻ cào điện thoại 10.000 VNĐ",
+          "text":"Hãy chia sẻ và tham gia chương trình nhiều hơn nhé!"
+        },
+        {
+          "type":"unlucky",
+          "img":"",
+          "title":"Chúc bạn may mắn lần sau",
+          "text":"Hãy chia sẻ và tham gia chương trình nhiều hơn nhé!"
+        }
+      ]
+    },
+    {
+      "supermarket":"emart",
+      "prize":[
+        {
+          "type":"special",
+          "img":"/assets/images/v4/qua/tu-lanh-bespoke.png",
+          "title":"Tủ lạnh Samsung Bespoke 305L",
+          "text":"Chúc mừng bạn đã giành giải đăc biệt, vui lòng nhập thông tin nhận quà bên dưới để BTC chuyển quà cho bạn nha."
+        },
+        {
+          "type":"first",
+          "img":"/assets/images/v4/qua/noi-lau-dien.png",
+          "title":"Nồi lẩu điện Hàn Quốc Hawonkoo 2.5L",
+          "text":"Chúc mừng bạn đã giành giải nhất, vui lòng nhập thông tin nhận quà bên dưới để BTC chuyển quà cho bạn nha."
+        },
+        {
+          "type":"second",
+          "img":"/assets/images/v4/qua/hop-banh.png",
+          "title":"Bánh quy No Brand",
+          "text":"Chúc mừng bạn đã giành giải nhất, vui lòng nhập thông tin nhận quà bên dưới để BTC chuyển quà cho bạn nha."
+        },
+        {
+          "type":"third",
+          "img":"/assets/images/v4/qua/the-cao.png",
+          "title":"Thẻ cào điện thoại 10.000 VNĐ",
+          "text":"Hãy chia sẻ và tham gia chương trình nhiều hơn nhé!"
+        },
+        {
+          "type":"unlucky",
+          "img":"",
+          "title":"Chúc bạn may mắn lần sau",
+          "text":"Hãy chia sẻ và tham gia chương trình nhiều hơn nhé!"
+        }
+      ]
+    },
+    {
+      "supermarket":"aeon",
+      "prize":[
+        {
+          "type":"special",
+          "img":"/assets/images/v4/qua/tu-lanh.png",
+          "title":"Tủ lạnh Toshiba Inverter 311L",
+          "text":"Chúc mừng bạn đã giành giải đăc biệt, vui lòng nhập thông tin nhận quà bên dưới để BTC chuyển quà cho bạn nha."
+        },
+        {
+          "type":"first",
+          "img":"/assets/images/v4/qua/phieu-mua-hang-aeon.png",
+          "title":"Phiếu mua hàng AEON 200.000 VNĐ",
+          "text":"Chúc mừng bạn đã giành giải nhất, vui lòng nhập thông tin nhận quà bên dưới để BTC chuyển quà cho bạn nha."
+        },
+        {
+          "type":"second",
+          "img":"/assets/images/v4/qua/hop-banh-lu.png",
+          "title":"Hộp bánh LU Tết 180G",
+          "text":"Chúc mừng bạn đã giành giải nhất, vui lòng nhập thông tin nhận quà bên dưới để BTC chuyển quà cho bạn nha."
+        },
+        {
+          "type":"third",
+          "img":"/assets/images/v4/qua/the-cao.png",
+          "title":"Thẻ cào điện thoại 10.000 VNĐ",
+          "text":"Hãy chia sẻ và tham gia chương trình nhiều hơn nhé!"
+        },
+        {
+          "type":"unlucky",
+          "img":"",
+          "title":"Chúc bạn may mắn lần sau",
+          "text":"Hãy chia sẻ và tham gia chương trình nhiều hơn nhé!"
+        }
+      ]
+    },
+    {
+      "supermarket":"bsmart",
+      "prize":[
+        {
+          "type":"special",
+          "img":"/assets/images/v4/qua/phieu-mua-hang-pnj.png",
+          "title":"E-Voucher PNJ",
+          "text":"Chúc mừng bạn đã giành giải đăc biệt, vui lòng nhập thông tin nhận quà bên dưới để BTC chuyển quà cho bạn nha."
+        },
+        {
+          "type":"first",
+          "img":"/assets/images/v4/qua/ve-xem-phim-cgv.png",
+          "title":"E-Voucher CGV 200.000 VNĐ",
+          "text":"Chúc mừng bạn đã giành giải nhất, vui lòng nhập thông tin nhận quà bên dưới để BTC chuyển quà cho bạn nha."
+        },
+        {
+          "type":"third",
+          "img":"/assets/images/v4/qua/the-cao.png",
+          "title":"Thẻ cào điện thoại 10.000 VNĐ",
+          "text":"Hãy chia sẻ và tham gia chương trình nhiều hơn nhé!"
+        },
+        {
+          "type":"unlucky",
+          "img":"",
+          "title":"Chúc bạn may mắn lần sau",
+          "text":"Hãy chia sẻ và tham gia chương trình nhiều hơn nhé!"
+        }
+      ]
+    },
+    {
+      "supermarket":"lotte",
+      "prize":[
+        {
+          "type":"special",
+          "img":"/assets/images/v4/qua/xe-lead.png",
+          "title":"Xe Honda Lead",
+          "text":"Chúc mừng bạn đã giành giải đăc biệt, vui lòng nhập thông tin nhận quà bên dưới để BTC chuyển quà cho bạn nha."
+        },
+        {
+          "type":"third",
+          "img":"/assets/images/v4/qua/the-cao.png",
+          "title":"Thẻ cào điện thoại 10.000 VNĐ",
+          "text":"Hãy chia sẻ và tham gia chương trình nhiều hơn nhé!"
+        },
+        {
+          "type":"unlucky",
+          "img":"",
+          "title":"Chúc bạn may mắn lần sau",
+          "text":"Hãy chia sẻ và tham gia chương trình nhiều hơn nhé!"
+        }
+      ]
+    },
+    {
+      "supermarket":"mega",
+      "prize":[
+        {
+          "type":"special",
+          "img":"/assets/images/v4/qua/xe-vinfast.png",
+          "title":"Xe Honda Vinfast Evo 200",
+          "text":"Chúc mừng bạn đã giành giải đăc biệt, vui lòng nhập thông tin nhận quà bên dưới để BTC chuyển quà cho bạn nha."
+        },
+        {
+          "type":"third",
+          "img":"/assets/images/v4/qua/the-cao.png",
+          "title":"Thẻ cào điện thoại 10.000 VNĐ",
+          "text":"Hãy chia sẻ và tham gia chương trình nhiều hơn nhé!"
+        },
+        {
+          "type":"unlucky",
+          "img":"",
+          "title":"Chúc bạn may mắn lần sau",
+          "text":"Hãy chia sẻ và tham gia chương trình nhiều hơn nhé!"
+        }
+      ]
+    },
+    {
+      "supermarket":"ministop",
+      "prize":[
+        {
+          "type":"special",
+          "img":"/assets/images/v4/qua/evoucher-dienmayxanh.png",
+          "title":"E-Voucher Điện Máy Xanh",
+          "text":"Chúc mừng bạn đã giành giải đăc biệt, vui lòng nhập thông tin nhận quà bên dưới để BTC chuyển quà cho bạn nha."
+        },
+        {
+          "type":"first",
+          "img":"/assets/images/v4/qua/phieu-mua-hang-gotit.png",
+          "title":"E-Voucher Got It 300.000 VNĐ (chỉ sử dụng tại Ministop)",
+          "text":"Chúc mừng bạn đã giành giải nhất, vui lòng nhập thông tin nhận quà bên dưới để BTC chuyển quà cho bạn nha."
+        },
+        {
+          "type":"third",
+          "img":"/assets/images/v4/qua/the-cao.png",
+          "title":"Thẻ cào điện thoại 10.000 VNĐ",
+          "text":"Hãy chia sẻ và tham gia chương trình nhiều hơn nhé!"
+        },
+        {
+          "type":"unlucky",
+          "img":"",
+          "title":"Chúc bạn may mắn lần sau",
+          "text":"Hãy chia sẻ và tham gia chương trình nhiều hơn nhé!"
+        }
+      ]
+    }
+  ]
+}

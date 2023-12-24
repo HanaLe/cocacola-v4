@@ -811,18 +811,20 @@ header img {
   font-style: italic;
   font-weight: 800;
   line-height: 1.4;
+  max-width: 95%;
+  margin: 10px auto 0;
 }
 @media print, (min-width: 768px) {
   .p-game-step2 .game-result .text {
     font-size: 20px;
   }
 }
-.p-game-step2 .game-result .prize, .p-game-step2 .game-result .heading {
-  display: none;
-  text-align: center;
+.p-game-step2 .game-result .heading-large {
+  max-width: 80%;
+  margin: 0 auto;
 }
-.p-game-step2 .game-result .prize.active, .p-game-step2 .game-result .heading.active {
-  display: block;
+.p-game-step2 .game-result .prize, .p-game-step2 .game-result .heading {
+  text-align: center;
 }
 .p-game-step2 .game-result .button {
   box-shadow: 0px 4px 4px 0px rgba(241, 226, 129, 0.25);
