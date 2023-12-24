@@ -237,6 +237,10 @@ main {
   background: url(../images/v4/bg-bottom.png) no-repeat bottom center/100% auto, url(../images/v4/bg-home.jpg) no-repeat top center/100% auto;
 }
 
+.p-thele.active main {
+  background: url(../images/v4/bg-bottom.png) no-repeat bottom center/100% auto, url(../images/v4/bg-thele.png) no-repeat top center/100% auto;
+}
+
 .p-game-step2.active main {
   background: url(../images/v4/bg-2.jpg) no-repeat top center/cover;
 }
