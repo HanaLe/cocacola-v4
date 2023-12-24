@@ -32,7 +32,15 @@
       display: flex;
     }
     .shake-tree-frame{
-      margin-top: 65vw;
+      margin-top: 66vw;
+      img{
+        opacity: 0;
+        transform: scale(1.4);
+        margin-left: -4vw;
+        &.active{
+          opacity: 1;
+        }
+      }
     }
   }
   .game-result{

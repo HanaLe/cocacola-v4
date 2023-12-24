@@ -775,7 +775,15 @@ header img {
   display: flex;
 }
 .p-game-step2 .game-animation .shake-tree-frame {
-  margin-top: 65vw;
+  margin-top: 66vw;
+}
+.p-game-step2 .game-animation .shake-tree-frame img {
+  opacity: 0;
+  transform: scale(1.4);
+  margin-left: -4vw;
+}
+.p-game-step2 .game-animation .shake-tree-frame img.active {
+  opacity: 1;
 }
 .p-game-step2 .game-result {
   height: 100%;
