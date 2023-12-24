@@ -10,6 +10,7 @@
   startButton.addEventListener("click", function (e) {
     gameIntro.style.display = "none";
     gameAnimation.classList.add("open");
+    document.body.classList.add('active');
     
     // shake tree
 
@@ -17,7 +18,7 @@
     setTimeout(() => {
       gameAnimation.style.display = "none";
       gameResult.style.display = "flex";
-    }, 3000);
+    }, 3500);
     clearTimeout();
   });
 

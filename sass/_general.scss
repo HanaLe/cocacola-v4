@@ -29,7 +29,11 @@ main{
     background: url(../images/v4/bg-bottom.png) no-repeat bottom center/100% auto, url(../images/v4/bg-home.jpg) no-repeat top center/100% auto;
   }
 }
-
+.p-game-step2.active {
+  main{
+    background: url(../images/v4/bg-2.jpg) no-repeat top center/cover;
+  }
+}
 header{
   display:flex;
   width: 100%;
@@ -63,12 +67,7 @@ header{
     margin-top: 40px;
   }
 }
-.heading-italic{
-  font-style: italic;
-}
-.heading-yellow{
-  color: #F1E281;
-}
+
 .heading-2{
   color: #FBF480;
   text-align: center;
@@ -106,7 +105,12 @@ header{
     font-size: 18px;
   }
 }
-
+.heading-italic{
+  font-style: italic;
+}
+.heading-yellow{
+  color: #F1E281;
+}
 .form-check{
   margin: 10px 16px;
   align-self: start;

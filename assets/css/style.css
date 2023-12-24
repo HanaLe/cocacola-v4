@@ -237,6 +237,10 @@ main {
   background: url(../images/v4/bg-bottom.png) no-repeat bottom center/100% auto, url(../images/v4/bg-home.jpg) no-repeat top center/100% auto;
 }
 
+.p-game-step2.active main {
+  background: url(../images/v4/bg-2.jpg) no-repeat top center/cover;
+}
+
 header {
   display: flex;
   width: 100%;
@@ -275,14 +279,6 @@ header img {
     font-size: 22px;
     margin-top: 40px;
   }
-}
-
-.heading-italic {
-  font-style: italic;
-}
-
-.heading-yellow {
-  color: #F1E281;
 }
 
 .heading-2 {
@@ -329,6 +325,14 @@ header img {
   .heading-small {
     font-size: 18px;
   }
+}
+
+.heading-italic {
+  font-style: italic;
+}
+
+.heading-yellow {
+  color: #F1E281;
 }
 
 .form-check {
@@ -726,8 +730,8 @@ header img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 90%;
-  margin: 20vw auto;
+  width: 98%;
+  margin: 20vw auto 0;
 }
 @media print, (min-width: 768px) {
   .p-game-step2 .game-intro-content {
@@ -735,7 +739,7 @@ header img {
   }
 }
 .p-game-step2 .game-intro-content .img-prize-special {
-  margin-top: -28vw;
+  margin-top: -26vw;
 }
 @media print, (min-width: 768px) {
   .p-game-step2 .game-intro-content .img-prize-special {
@@ -750,6 +754,9 @@ header img {
 }
 .p-game-step2 .game-animation.open {
   display: flex;
+}
+.p-game-step2 .game-animation .shake-tree-frame {
+  margin-top: 65vw;
 }
 .p-game-step2 .game-result {
   height: 100%;

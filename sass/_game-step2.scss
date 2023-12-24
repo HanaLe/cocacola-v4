@@ -10,13 +10,13 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
-      width: 90%;
-      margin: 20vw auto;
+      width: 98%;
+      margin: 20vw auto 0;
       @include PC{
         margin-top: 200px;
       }
       .img-prize-special{
-        margin-top: -28vw;
+        margin-top: -26vw;
         @include PC{
           margin-top: -100px;
         }
@@ -30,6 +30,9 @@
     flex-direction: column;
     &.open{
       display: flex;
+    }
+    .shake-tree-frame{
+      margin-top: 65vw;
     }
   }
   .game-result{
