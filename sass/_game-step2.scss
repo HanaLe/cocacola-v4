@@ -30,6 +30,8 @@
     flex-direction: column;
     &.open{
       display: flex;
+      overflow: hidden;
+      padding-bottom: 20vw;
     }
     .shake-tree-frame{
       margin-top: 66vw;

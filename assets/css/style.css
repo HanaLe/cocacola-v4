@@ -773,6 +773,8 @@ header img {
 }
 .p-game-step2 .game-animation.open {
   display: flex;
+  overflow: hidden;
+  padding-bottom: 20vw;
 }
 .p-game-step2 .game-animation .shake-tree-frame {
   margin-top: 66vw;
