@@ -23,7 +23,7 @@
   startButton.addEventListener("click", function (e) {
     gameIntro.style.display = "none";
     gameAnimation.classList.add("open");
-    document.body.classList.add('active');
+    document.body.classList.add('is-game');
 
     // game animation
     tree.addEventListener("click", function (e) {

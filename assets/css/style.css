@@ -256,7 +256,7 @@ main {
   z-index: -1;
 }
 
-.p-game-step2.active main {
+.p-game-step2.is-game main {
   background: url(../images/v4/bg-2.jpg) no-repeat top center/cover;
 }
 
