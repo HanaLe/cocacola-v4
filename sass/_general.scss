@@ -248,10 +248,8 @@ header{
   }
 }
 
-.button-animate{
-  &:active{
-    animation: press 0.2s 1 linear;
-  }
+.animate-zoom-in-out{
+  animation: press 0.4s 1s infinite;
 }
 @keyframes press {
   0% {
