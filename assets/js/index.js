@@ -28,7 +28,8 @@
     // game animation
     tree.addEventListener("click", function (e) {
       tree.querySelector('img').classList.add("active");
-
+      document.body.classList.remove("is-game");
+      document.body.classList.add('is-hidden-tree');
       // show result
       setTimeout(() => {
         gameAnimation.style.display = "none";
