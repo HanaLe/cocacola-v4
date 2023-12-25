@@ -88,10 +88,18 @@
     }
     .heading-large{
       max-width: 80%;
-      margin: 0 auto;
+      margin: 20px auto 0;
     }
     .prize,.heading{
       text-align: center;
+    }
+    .prize{
+      img{
+        max-height: 40vh;
+      }
+    }
+    .heading{
+      margin-bottom: 20px;
     }
     .button{
       box-shadow: 0px 4px 4px 0px rgba(241, 226, 129, 0.25);

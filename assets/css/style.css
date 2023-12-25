@@ -839,10 +839,16 @@ header img {
 }
 .p-game-step2 .game-result .heading-large {
   max-width: 80%;
-  margin: 0 auto;
+  margin: 20px auto 0;
 }
 .p-game-step2 .game-result .prize, .p-game-step2 .game-result .heading {
   text-align: center;
+}
+.p-game-step2 .game-result .prize img {
+  max-height: 40vh;
+}
+.p-game-step2 .game-result .heading {
+  margin-bottom: 20px;
 }
 .p-game-step2 .game-result .button {
   box-shadow: 0px 4px 4px 0px rgba(241, 226, 129, 0.25);
