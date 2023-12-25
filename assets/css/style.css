@@ -549,6 +549,7 @@ header img {
   height: 100%;
   object-fit: scale-down;
   object-position: center center;
+  animation: press 0.4s 1s infinite;
 }
 
 .p-thele-content {
