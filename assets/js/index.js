@@ -34,7 +34,9 @@
       setTimeout(() => {
         gameAnimation.style.display = "none";
         gameResult.style.display = "flex";
-      }, 3500);
+        document.body.classList.remove('is-hidden-tree');
+        document.body.classList.add('is-game');
+      }, 3640);
       clearTimeout();
       if (!result.lucky) textHeading.innerHTML = 'CẢM ƠN BẠN ĐÃ THAM GIA';
       prizeImage.src = result.img;

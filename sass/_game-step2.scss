@@ -28,6 +28,7 @@
     height: 100%;
     flex: 1;
     flex-direction: column;
+    position: relative;
     &.open{
       display: flex;
       overflow: hidden;
@@ -71,7 +72,8 @@
     }
     &-inner{
       opacity: 0;
-      animation: zoom-in 1s ease-in-out forwards;
+      animation: zoom-in 1.5s ease-in-out forwards;
+      animation-delay: .7s;
     }
     .text{
       padding: 0 10px;
@@ -106,6 +108,54 @@
     }
   }
 }
+.light{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  margin-top: -15vw;
+  img{
+    position: absolute;
+    top: 50%;
+    margin-top: -25vw;
+    left: 0;
+    &.light1{
+      animation: light1-out 0.2s ease-in-out forwards;
+    }
+    &.light2{
+      animation: light2-in 0.3s ease-in-out forwards;
+      animation-delay: .2s;
+      opacity: 0;
+    }
+    &.light3{
+      animation: light3-out .2s ease-in-out forwards;
+      animation-delay: .35s;
+      opacity: 0;
+    }
+    &.light4{
+      animation: light3-out .2s ease-in-out forwards;
+      animation-delay: .5s;
+      opacity: 0;
+    }
+    &.light5{
+      animation: light3-out .2s ease-in-out forwards;
+      animation-delay: .65s;
+      opacity: 0;
+    }
+    &.light6{
+      animation: light3-out .5s ease-in-out forwards;
+      animation-delay: .8s;
+      opacity: 0;
+    }
+    &.light7{
+      animation: light3-out .5s ease-in-out forwards;
+      animation-delay: 1s;
+      opacity: 0;
+    }
+  }
+}
 
 @keyframes zoom-in{
   0%{
@@ -115,5 +165,47 @@
   100%{
     transform: scale(1);
     opacity: 1;
+  }
+}
+@keyframes light1-out{
+  0%{
+    transform: scale(3) ;
+    opacity: 1;
+  }
+  100%{
+    transform: scale(0) ;
+    opacity: 0;
+  }
+}
+@keyframes light2-in{
+  0%{
+    transform: scale(0) ;
+    opacity: 0;
+  }
+  40%{
+    transform: scale(1) ;
+    opacity: 1;
+  }
+  100%{
+    transform: scale(5) ;
+    opacity: 0
+  }
+}
+@keyframes light3-out{
+  0%{
+    transform: scale(1.5) ;
+    opacity: 0;
+  }
+  50%{
+    transform: scale(3) ;
+    opacity: 1;
+  }
+  90%{
+    transform: scale(6) ;
+    opacity: 1;
+  }
+  100%{
+    transform: scale(8) ;
+    opacity: 0
   }
 }
