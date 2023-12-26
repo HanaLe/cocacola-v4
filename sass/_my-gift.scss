@@ -1,6 +1,9 @@
 .p-gift{
   .heading{
     margin-top: 48vw;
+    @include PC{
+      margin-top: 78%;
+    }
   }
 }
 .list-gift{

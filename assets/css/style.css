@@ -287,6 +287,11 @@ header img {
   margin-top: 40vw;
   max-width: 92vw;
 }
+@media print, (min-width: 768px) {
+  .campaign {
+    margin-top: 45%;
+  }
+}
 
 .heading {
   color: #FFF;
@@ -502,13 +507,18 @@ header img {
   gap: 0 0.1rem;
   margin-top: 0.15rem;
 }
+@media print, (min-width: 768px) {
+  .supermarket {
+    margin-top: 30px;
+  }
+}
 .supermarket li {
   height: 15vw;
   flex: 1;
 }
 @media print, (min-width: 768px) {
   .supermarket li {
-    max-height: 50px;
+    max-height: 70px;
   }
 }
 .supermarket li img {
@@ -521,8 +531,18 @@ header img {
 .p-home .heading {
   margin-top: 61vw;
 }
+@media print, (min-width: 768px) {
+  .p-home .heading {
+    margin-top: 70%;
+  }
+}
 .p-home .heading-2 {
   margin: 0.1rem auto;
+}
+@media print, (min-width: 768px) {
+  .p-home .heading-2 {
+    margin: 16px auto;
+  }
 }
 
 .list-supermarket {
@@ -531,6 +551,12 @@ header img {
   padding: 5% 3% 0%;
   aspect-ratio: 704/817;
   margin: 5vw 3vw;
+}
+@media print, (min-width: 768px) {
+  .list-supermarket {
+    margin: 3%;
+    aspect-ratio: 704/817;
+  }
 }
 .list-supermarket ul {
   display: flex;
@@ -547,6 +573,11 @@ header img {
 .list-supermarket li {
   height: 12vw;
   flex: 1;
+}
+@media print, (min-width: 768px) {
+  .list-supermarket li {
+    height: 14%;
+  }
 }
 .list-supermarket li img {
   width: 100%;
@@ -584,7 +615,7 @@ header img {
 }
 @media print, (min-width: 768px) {
   .p-winner .heading-small {
-    margin-top: 750px;
+    margin-top: 78%;
   }
 }
 .p-winner-content {
@@ -774,6 +805,7 @@ header img {
 }
 .p-game-step2 .game-animation {
   height: 100%;
+  width: 100%;
   flex: 1;
   flex-direction: column;
   align-items: center;
@@ -782,11 +814,16 @@ header img {
   top: 0;
   left: 0;
   display: none;
+  overflow: hidden;
 }
 .p-game-step2 .game-animation.open {
   display: flex;
-  overflow: hidden;
   padding-bottom: 20vw;
+}
+@media print, (min-width: 768px) {
+  .p-game-step2 .game-animation.open {
+    padding-bottom: 30px;
+  }
 }
 .p-game-step2 .game-animation.hidden {
   animation: out 2s ease-out forwards;
@@ -798,8 +835,8 @@ header img {
   top: 0;
   left: 0;
   z-index: -1;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   opacity: 0;
 }
 .p-game-step2 .game-animation.is-black:after {
@@ -809,13 +846,29 @@ header img {
 .p-game-step2 .game-animation .shake-tree-frame {
   margin-top: 66vw;
 }
+@media print, (min-width: 768px) {
+  .p-game-step2 .game-animation .shake-tree-frame {
+    margin-top: 93%;
+  }
+}
 .p-game-step2 .game-animation .shake-tree-frame img {
   opacity: 0;
   transform: scale(1.4);
   margin-left: -4vw;
 }
+@media print, (min-width: 768px) {
+  .p-game-step2 .game-animation .shake-tree-frame img {
+    margin-left: -4%;
+  }
+}
 .p-game-step2 .game-animation .shake-tree-frame img.active {
   opacity: 1;
+}
+.p-game-step2 .game-animation .heading-small {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .p-game-step2 .game-result {
   height: 100%;
@@ -826,7 +879,7 @@ header img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   gap: 20px;
   z-index: -100;
   display: flex;
@@ -1106,6 +1159,11 @@ header img {
 
 .p-gift .heading {
   margin-top: 48vw;
+}
+@media print, (min-width: 768px) {
+  .p-gift .heading {
+    margin-top: 78%;
+  }
 }
 
 .list-gift {

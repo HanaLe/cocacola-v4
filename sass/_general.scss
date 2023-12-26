@@ -83,6 +83,9 @@ header{
 .campaign{
   margin-top: 40vw;
   max-width: 92vw;
+  @include PC{
+    margin-top: 45%;
+  }
 }
 .heading{
   color: #FFF;
@@ -274,11 +277,14 @@ header{
   justify-content: center;
   gap: 0 .1rem;
   margin-top: .15rem;
+  @include PC{
+    margin-top: 30px
+  }
   li{
     height: 15vw;
     flex: 1;
     @include PC{
-      max-height:50px;
+      max-height:70px;
     }
     img{
       object-fit: contain;
