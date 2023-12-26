@@ -55,12 +55,16 @@ main{
   
 }
 .p-game-step2.is-game {
+  aspect-ratio: 754/1624;
   main{
+    height: 100%;
     background: url(../images/v4/bg-2.jpg) no-repeat top center/cover;
   }
 }
 .p-game-step2.is-hidden-tree {
+  aspect-ratio: 754/1624;
   main{
+    height: 100%;
     background: url(../images/v4/bg-2-2.jpg) no-repeat top center/cover;
   }
 }
