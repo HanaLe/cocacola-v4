@@ -22,31 +22,17 @@
     margin: 3%;
     aspect-ratio: 704/817;
   }
-  ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    &.other{
-      flex-wrap: wrap;
-      li{
-        width: 32%;
-        flex: auto;
-      }
-    }
-  }
   li{
-    height: 12vw;
-    flex: 1;
+    display: inline-block;
+    margin: 0 3.1vw;
     @include PC{
-      height: 14%;
+      margin: 0 10px;
     }
     img{
-      width: 100%;
-      height: 100%;
-      object-fit: scale-down;
-      object-position: center center;
+      height: 12vw;
+      width: auto;
       @include PC{
-        max-height: 50px;
+        height: 10%;
       }
     }
   }
