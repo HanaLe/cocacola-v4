@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cocacola - Diệu kỳ trao tay</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/slider/splide.min.js"></script>
+  <link href="assets/js/slider/splide.min.css" rel="stylesheet">
+</head>
+
+<body class="p-bill">
+  <main>
+    <header>
+      <img src="assets/images/v4/logo-coca.svg" alt="">
+      <!-- logo supermarket optional -->
+      <!-- <img src="assets/images/v4/supermarket/lottlemart.png" alt="">   -->
+    </header>
+    <h1 class="heading heading-italic">Chụp ảnh hóa đơn</h1>
+    <div class="p-bill-carousel">
+      <p class="title">hướng dẫn chụp hóa đơn gốc hoặc toàn bộ hóa đơn</p>
+      <div class="splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <img src="assets/images/v4/slide/slide1.jpg">
+              <ul class="text">
+                <li>Chụp hoá đơn GỐC và chụp TOÀN BỘ HOÁ ĐƠN.</li>
+                <li>Thấy rõ tên siêu thị, số hoá đơn, sản phẩm mua.</li>
+              </ul>
+            </li>
+            <li class="splide__slide">
+              <img src="assets/images/v4/slide/slide2.jpg">
+              <ul class="text">
+                 <li>Gấp hoá đơn lại để thấy rõ tên siêu thị, số hoá đơn, ngày mua hàng, tên và giá sản phẩm vào trong 1 khung hình.</li>
+                 <li>Không gấp hoặc che các thông tin ở phần cuối hoá đơn.</li>
+                 <li>Hoá đơn bị mờ sẽ không được hệ thống ghi nhận thông tin.</li>
+              </ul>
+            </li>
+            <li class="splide__slide">
+              <img src="assets/images/v4/slide/slide3.jpg">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var splide = new Splide( '.splide',{
+        arrows: false
+      } );
+      splide.mount();
+    </script>
+   
+
+  </main>
+</body>
+</html>
