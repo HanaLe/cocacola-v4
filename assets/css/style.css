@@ -541,7 +541,7 @@ header img {
 }
 @media print, (min-width: 768px) {
   .p-home .heading-2 {
-    margin: 16px auto;
+    margin: 22px auto;
   }
 }
 
@@ -584,6 +584,11 @@ header img {
   height: 100%;
   object-fit: scale-down;
   object-position: center center;
+}
+@media print, (min-width: 768px) {
+  .list-supermarket li img {
+    max-height: 50px;
+  }
 }
 
 .p-thele-content {
@@ -818,7 +823,6 @@ header img {
 }
 .p-game-step2 .game-animation.open {
   display: flex;
-  padding-bottom: 20vw;
 }
 @media print, (min-width: 768px) {
   .p-game-step2 .game-animation.open {
@@ -864,11 +868,13 @@ header img {
 .p-game-step2 .game-animation .shake-tree-frame img.active {
   opacity: 1;
 }
-.p-game-step2 .game-animation .heading-small {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translateX(-50%);
+@media print, (min-width: 768px) {
+  .p-game-step2 .game-animation .heading-small {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 .p-game-step2 .game-result {
   height: 100%;

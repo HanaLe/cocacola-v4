@@ -38,7 +38,7 @@
     overflow: hidden;
     &.open{
       display: flex;
-      padding-bottom: 20vw;
+      // padding-bottom: 20vw;
       @include PC{
         padding-bottom: 30px;
       }
@@ -81,10 +81,12 @@
       }
     }
     .heading-small{
-      position: absolute;
-      top: 30%;
-      left: 50%;
-      transform: translateX(-50%);
+      @include PC{
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
     }
   }
   .game-result{

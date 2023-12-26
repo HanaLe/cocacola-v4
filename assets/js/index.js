@@ -34,17 +34,17 @@
         gameAnimation.classList.add("is-black");
       }, 3200);
       clearTimeout();
-      setTimeout(() => {
-        document.body.classList.remove('is-hidden-tree');
-        document.body.classList.add('is-game');
-        gameResult.classList.add("open")
-      },3641);
-      // show result
-      clearTimeout();
-      setTimeout(() => {
-        gameAnimation.classList.add("hidden");
-      },3800);
-      clearTimeout();
+      // setTimeout(() => {
+      //   document.body.classList.remove('is-hidden-tree');
+      //   document.body.classList.add('is-game');
+      //   gameResult.classList.add("open")
+      // },3641);
+      // // show result
+      // clearTimeout();
+      // setTimeout(() => {
+      //   gameAnimation.classList.add("hidden");
+      // },3800);
+      // clearTimeout();
 
       if (!result.lucky) textHeading.innerHTML = 'CẢM ƠN BẠN ĐÃ THAM GIA';
       prizeImage.src = result.img;
